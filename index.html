@@ -1,7 +1,12 @@
 <!DOCTYPE HTML>
 <html>
   <body>
+    <script>
+      function Myfunction() {
+        document.getElementById("test").style.color = "Red"
+      }
+    </script>
     <h1 id="test"> Hello! </h1>
-    <button onclick="document.getElementById("test").style.color = Red"> Click me! </button>
+    <button onclick=Myfunction()> Click me! </button>
   </body>
 </html>
